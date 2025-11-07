@@ -1,2 +1,81 @@
+# ==========================================
+# PHP Coaching Management System .gitignore
+# ==========================================
+
+# --------------------
+# System & Editor Files
+# --------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --------------------
+# OS generated files
+# --------------------
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# --------------------
+# Uploads & User Data
+# --------------------
 /uploads/
-/uploads/
+/uploads/*
+!/uploads/index.php
+
+# --------------------
+# Logs & Cache
+# --------------------
+/logs/
+/cache/
+/tmp/
+/sessions/
+
+# --------------------
+# Composer & Vendor
+# --------------------
+/vendor/
+/composer.lock
+
+# --------------------
+# Environment & Config Files
+# --------------------
+.env
+config.php
+database.php
+db_config.php
+*.env
+
+# --------------------
+# Node / Front-end (if used)
+# --------------------
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --------------------
+# Backup / Misc Files
+# --------------------
+*.bak
+*.swp
+*.swo
+*.old
+*.zip
+*.tar
+*.gz
+
+# --------------------
+# PHPStorm / IDE Metadata
+# --------------------
+/.idea/
+*.iml
+
+# --------------------
+# OS Specific
+# --------------------
+*.log
+*.lock
+
+# End of file
